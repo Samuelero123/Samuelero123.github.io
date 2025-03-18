@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Flavors', cursive;
+    font-size: 16px;
+    color: #333;
+}
+h1 {
+   text-align: center;
+    color: #1b6fb4;
+    font-size: 60px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f8f8f8;
+
+}
+h2 {
+    text-align: center;
+    color: #f70000;
+    font-size: 40px;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f8f8f8;
+
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+a   {
+    text-decoration: none;
+    color: #333;
+}
+p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #e4e2e2;
+    font-size: 30px;
+    color: #2e3cd3;
+}
+lu {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #f8f0f0;
+    font-size: 30px;
+    flex-direction: column-reverse;
+
+}
+*{
+    background-image: url(./img/back4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;;
+    font-size: 30px;
+    color: #fbf6f6;
+}
+.flavors-regular {
+    font-family: "Flavors", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  a{
+    color: #3232e8;
+    font-size: 40px;
+  }
+  #menu li{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #000000;
+    font-size: 30px;
+    color: #000000;
+  }
+  
